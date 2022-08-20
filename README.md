@@ -1,5 +1,5 @@
-# Grupo13
-  ![image](https://user-images.githubusercontent.com/46485082/185762124-0df1534d-206c-4ff8-b6ba-b26ddc2fec96.png)
+## Grupo13
+ ![image](https://user-images.githubusercontent.com/46485082/185764937-f3af15ef-e7a7-44c3-9f1b-1f3df082c9e3.png)
 #                  Electrónica Microcontrolada-TST-2022
 #
 Docentes :
