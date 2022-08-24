@@ -1,0 +1,29 @@
+#include <Arduino.h>
+
+int num1,num2,suma; // se definen las variables para almacenar los datos ingresados por el usuario y de la operacion suma
+void setup()
+{
+Serial.begin(9600); //inicializa la comunicacion serial
+}
+
+void loop()
+{
+Serial.print("Ingrese el primer numero: "); // imprime un mensaje en la terminal
+while (Serial.available()==0) //Espera hasta que se ingrese un numero desde el terminal
+{}
+
+num1=Serial.parseInt(); //lee el primer numero
+Serial.println(num1); //imprime el primer numero
+
+Serial.print("Ingrese el segundo numero: ");// imprime un mensaje en la terminal
+while (Serial.available()==0) //Espera hasta que se ingrese un numero desde el terminal
+{}
+
+num2=Serial.parseInt(); //lee el segundo numero
+Serial.println(num2); //imprime el segundo numero
+
+Serial.print("La suma de los numeros es: "); // imprime un mensaje en la terminal
+suma = num1 + num2; // realiza la operacion suma
+Serial.println(suma); // imprime un mensaje en la terminal con el resultado de la suma
+
+}
