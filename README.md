@@ -4,12 +4,14 @@
 #
 Docentes :
 
-          Jorge Morales
-          Gonzalo Vera
+* Jorge Morales
+* Gonzalo Vera
 #
 # Integrantes:
-           Miguel Segnana
-           Oscar Gazzola
-           Richard M Lagos
-           Virginia Zalazar
-           Ezequiel Mansilla
+
+* [Miguel Segnana](https://github.com/guelo2019 "guelo2019")
+* Oscar Gazzola
+* Ezequiel Mansilla
+* Richard M Lagos
+
+  
